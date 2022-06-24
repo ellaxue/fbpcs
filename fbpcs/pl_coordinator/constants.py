@@ -31,7 +31,7 @@ RETRY_INTERVAL = 60
 
 MIN_NUM_INSTANCES = 1
 # TODO T120485688 investigate multi objective issue and re-enable the feature
-MAX_NUM_INSTANCES = 1
+MAX_NUM_INSTANCES = 10
 PROCESS_WAIT = 1  # interval between starting processes.
 INSTANCE_SLA = 57600  # 8 hr instance sla, 2 tries per stage, total 16 hrs.
 
