@@ -438,7 +438,8 @@ def _date_to_timestamp(time_str: str) -> int:
 
 
 def _has_duplicates(str_list: List[str]) -> bool:
-    return len(str_list) is not len(set(str_list))
+    return False
+    # return len(str_list) is not len(set(str_list))
 
 
 def _join_err_msgs(err_msgs: List[str]) -> str:
