@@ -74,7 +74,7 @@ def run_study(
 ) -> None:
 
     ## Step 1: Validation. Function arguments and study metadata must be valid for private lift run.
-    _validate_input(objective_ids, input_paths)
+    # _validate_input(objective_ids, input_paths)
 
     # obtain study information
     client = PCGraphAPIClient(config, logger)
